@@ -9,10 +9,13 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-e1071 R-car R-colorspace R-nnet R-robustbase R-tcltk R-tkrplot R-sp R-vcd R-Rcpp 
-Requires:         R-car R-colorspace R-grDevices R-robustbase R-stats R-tcltk R-sp R-utils R-vcd 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-e1071 R-car R-colorspace R-nnet R-robustbase R-tcltk R-tkrplot R-sp R-vcd R-Rcpp
-BuildRequires:    R-car R-colorspace R-grDevices R-robustbase R-stats R-tcltk R-sp R-utils R-vcd 
+Requires:         R-e1071 R-car R-colorspace R-nnet R-robustbase R-tcltk
+Requires:         R-tkrplot R-sp R-vcd R-Rcpp R-car R-colorspace R-grDevices
+Requires:         R-robustbase R-stats R-tcltk R-sp R-utils R-vcd
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-e1071 R-car R-colorspace R-nnet R-robustbase R-tcltk
+BuildRequires:    R-tkrplot R-sp R-vcd R-Rcpp R-car R-colorspace R-grDevices
+BuildRequires:    R-robustbase R-stats R-tcltk R-sp R-utils R-vcd
 
 %description
 This package introduces new tools for the visualization of missing and/or

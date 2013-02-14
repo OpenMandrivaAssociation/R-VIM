@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          3.0.0
+Version:          3.0.3
 Release:          1
 Summary:          Visualization and Imputation of Missing Values
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/VIM_3.0.3.tar.gz
 Requires:         R-e1071 R-car R-colorspace R-nnet R-robustbase R-tcltk
 Requires:         R-tkrplot R-sp R-vcd R-Rcpp R-car R-colorspace R-grDevices
 Requires:         R-robustbase R-stats R-tcltk R-sp R-utils R-vcd

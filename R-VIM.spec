@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          3.0.3
-Release:          1
+Release:          2
 Summary:          Visualization and Imputation of Missing Values
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)

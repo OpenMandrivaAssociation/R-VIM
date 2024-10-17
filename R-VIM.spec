@@ -7,7 +7,7 @@ Release:          2
 Summary:          Visualization and Imputation of Missing Values
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/VIM_3.0.3.tar.gz
 Requires:         R-e1071 R-car R-colorspace R-nnet R-robustbase R-tcltk
 Requires:         R-tkrplot R-sp R-vcd R-Rcpp R-car R-colorspace R-grDevices
